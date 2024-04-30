@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "breastcervixapp": {
+      "hosting": {
+        "app": [
+          "breastcervixapp"
+        ]
+      }
+    }
+  }
+}

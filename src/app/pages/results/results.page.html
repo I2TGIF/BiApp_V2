@@ -1,0 +1,53 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-back-button defaultHref="/hometrivia"></ion-back-button>
+      </ion-buttons>
+      <ion-img class="centro" src="/assets/images/trivialogo.png"></ion-img> 
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid *ngIf="results">
+    <ion-row>
+      <ion-col width-50 offset-25>
+        <h2 class="feedback">
+          Tus Resultados
+        </h2>
+        <h1>
+          Obtuviste {{correctTotal}} respuestas bien de {{quizTotal}}!
+        </h1>
+        <p *ngIf="correctTotal === quizTotal">
+          Eres una maestra de la prevención del <a routerLink ="/information"> cáncer de mama</a> y <a routerLink ="/information2"> cáncer de cuello uterino</a>. 
+          Felicitaciones 
+        </p>
+        <p *ngIf="correctTotal/quizTotal >= .75">
+          Sabes de prevencion de cancer, pero te falta un poco.
+        </p>
+        <p *ngIf="correctTotal/quizTotal < .75">
+         Conocer sobre prevención es importante, te invito a revisar la información de esta aplicación 
+         para aprender sobre prevención del <a routerLink ="/information"> cáncer de mama</a> y <a routerLink ="/information2"> cáncer de cuello uterino</a>.
+        </p>
+        <!-- <ion-list>
+          <ion-item *ngFor="let result of results">
+            Respuesta Correcta: {{result.correctAnswer}} Tu Respuesta
+            {{result.yourAnswer}}
+          </ion-item>
+        </ion-list> -->
+        
+        <div class="center">
+          <ion-button (click)="backHome()" expand="block" fill="outline">Volver al inicio</ion-button>
+        </div>
+        <div class="center">
+          <ion-button expand="block" fill="outline"  (click)="restart()">
+            Jugar de Nuevo
+          </ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<app-footer>
+
+</app-footer>
+

@@ -1,0 +1,92 @@
+<ion-app>
+
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header class="ion-no-border">
+      <ion-toolbar>
+        <ion-img class="centro" src="/assets/images/unico2.png"></ion-img>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+    
+        <ion-item >
+          <ion-text  color="secondary">
+            Cáncer de mama
+          </ion-text>
+        </ion-item  >
+  
+      <ion-menu-toggle>
+        <ion-item routerLink="/information" detail>
+          <ion-icon color="secondary" slot="start" name="help-outline"></ion-icon>
+        ¿Qué es?
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/habitos" detail>
+          <ion-icon slot="start" color="secondary" name="woman-outline"></ion-icon>
+        Factores protectores
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/deteccionmama" detail>
+          <ion-icon slot="start" color="secondary" name="bag-add-outline"></ion-icon>
+        Detección
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-item >
+        <ion-text  color="primary">
+          Cáncer de cuello uterino
+        </ion-text>
+        
+      </ion-item  >
+        <ion-menu-toggle>
+        <ion-item routerLink="/information2" detail>
+          <ion-icon color="primary" slot="start" name="help-outline"></ion-icon>
+        ¿Qué es?
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/habitos" detail>
+          <ion-icon slot="start" color="primary" name="woman-outline"></ion-icon>
+        Factores protectores
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/prevencioncuello" detail>
+          <ion-icon slot="start" color="primary" name="fitness-outline"></ion-icon>
+        Prevención
+        </ion-item>
+      </ion-menu-toggle>
+        <ion-item >
+        </ion-item  >
+      <ion-menu-toggle>
+        <ion-item routerLink="/diario" detail>
+          <ion-icon slot="start" color="secondary" name="chatbox-ellipses-outline"></ion-icon>
+        Mi agenda
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>      
+      <ion-item routerLink="/calendario" detail>
+        <ion-icon slot="start" color="primary" name="calendar-outline"></ion-icon>
+      Calendario
+      </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>      
+      <ion-item routerLink="/nosotros" detail>
+        <ion-icon slot="start" color="primary" name="home-outline"></ion-icon>
+      ¿Quiénes somos?
+      </ion-item>
+    </ion-menu-toggle>
+    <ion-menu-toggle>      
+      <ion-item routerLink="/hometrivia" detail>
+        <ion-icon slot="start" color="primary" name="game-controller-outline"></ion-icon>
+          Trivia
+      </ion-item>
+    </ion-menu-toggle>
+    </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

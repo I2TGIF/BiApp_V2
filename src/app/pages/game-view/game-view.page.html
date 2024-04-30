@@ -1,0 +1,37 @@
+<ion-header class="ion-no-border">
+	<ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/hometrivia"></ion-back-button>
+          </ion-buttons>
+		  <ion-img class="centro" src="/assets/images/trivialogo.png"></ion-img> 
+		</ion-toolbar>
+  </ion-header>
+    <ion-content padding class="degrade">
+	<ion-grid *ngIf="currentQuiz" class="home">
+	  <ion-row align-items-center>
+		<ion-col width-50 offset-25 align-self-center>
+		  <ion-card class="card_style">
+			<ion-card-title class="question" color="primary"
+			  >{{currentQuiz.question}}</ion-card-title>
+			<ion-card-content>
+			  <ion-list>
+				<ion-item
+				  class="list_style"
+				  *ngFor="let answer of answers"
+				  (click)="handleAnswer(answer)">
+                    {{answer}}
+				</ion-item>
+				<ion-progress-bar
+				  value={{quizIndexPercent}}
+				></ion-progress-bar>
+			  </ion-list>
+			</ion-card-content>
+          </ion-card>
+          <ion-img src= "../../../assets/images/triviaImages/thinker.svg"></ion-img>
+		</ion-col>
+	  </ion-row>
+	</ion-grid>
+  </ion-content>
+  <app-footer>
+
+  </app-footer>

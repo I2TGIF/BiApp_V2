@@ -1,0 +1,51 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary ">
+  </ion-toolbar>
+  <ion-toolbar>
+   
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-img class="centro" src="/assets/images/unico2.png"></ion-img>  
+    <ion-buttons slot="end">
+      <ion-button (click)="deleteItem()" color="danger"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-button>  
+      <ion-button (click)="toggleReorder()"><ion-icon slot="icon-only" name="reorder-two"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>       
+</ion-header>
+
+<ion-content>
+  <ion-fab [routerLink]="['/notas', { tab:tabIndex, item:-1 }]" vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-list #myList lines="full">
+    <ion-reorder-group [disabled]="!reorder" (ionItemReorder)="moveItem($event.detail)">
+      <ion-item-sliding *ngFor="let item of tabs[tabIndex].list; let i=index" >
+        <ion-item [routerLink]="['/notas', { tab:tabIndex, item:i }]"  >
+          <ion-label class="ion-text-wrap">
+            <h2>{{item.task}}</h2>
+            <p>{{item.date.substring(0,10)}}</p>
+          </ion-label>
+          <ion-icon color="secondary" slot="end" [name]="item.icon"></ion-icon>
+          <ion-reorder slot="end"></ion-reorder>
+        </ion-item>
+        <ion-item-options side="start">
+          <ion-item-option color="danger" (click)="deleteItem(i)">
+            <ion-icon slot="icon-only" name="trash"></ion-icon>
+          </ion-item-option>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-reorder-group>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-tab-bar #myTabs color="primary" [selectedTab]="tabs[0].label">
+    <ion-tab-button *ngFor="let tab of tabs; let i=index" (click)="setTab(i)" [tab]="tab.label">
+      <ion-label>{{tab.label}}</ion-label>
+      <ion-icon [name]="tab.icon"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-footer>

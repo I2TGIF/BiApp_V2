@@ -1,0 +1,133 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar color="primary">
+  </ion-toolbar>
+  <ion-toolbar >
+    <ion-buttons slot="start">
+      <ion-back-button 
+      defaultHref="/home">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>
+{{viewTitle}}
+
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="today()">
+        Hoy
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+        <ion-card>
+      <ion-card-header >
+      <ion-card-title color="primary">
+        Nuevo evento
+      </ion-card-title>
+      </ion-card-header>
+
+      <ion-item>
+      <ion-input type="text" placeholder="Título" [(ngModel)]="event.title" >
+
+      </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Descripción" [(ngModel)]="event.desc" >
+        
+        </ion-input>
+        </ion-item>
+
+
+        <ion-item>
+          <ion-label>Inicio
+          </ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY HH:mm" pickerFormat="MMM D:HH:mm" [(ngModel)]="event.startTime" [min]="minDate">
+          
+        </ion-datetime>
+        
+        </ion-item>
+        
+        <ion-item>
+          <ion-label>Final
+          </ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY HH:mm" pickerFormat="MMM D:HH:mm" [(ngModel)]="event.endTime" [min]="minDate">
+          
+        </ion-datetime>
+        
+        </ion-item>
+        <ion-item>
+          <ion-label> ¿Todo el día?</ion-label>
+          <ion-checkbox [(ngModel)]="event.allDay"></ion-checkbox>
+        </ion-item>
+
+      <ion-button fill="outline" expand="block" (click) ="addEvent()" [disabled]="event.title == ''" > Añadir</ion-button>
+
+        </ion-card>
+
+      <ion-row>
+        <ion-col size='4'>
+          <ion-button expand="block" [color]="calendar.mode == 'month' ? 'primary' : 'secondary' " (click)="changeMode('month')">Mes</ion-button>
+
+        </ion-col>
+
+        <ion-col size='4'>
+          <ion-button expand="block" [color]="calendar.mode == 'week' ? 'primary' : 'secondary' " (click)="changeMode('week')">Semana</ion-button>
+
+        </ion-col>
+
+        <ion-col size='4'>
+          <ion-button expand="block" [color]="calendar.mode == 'day' ? 'primary' : 'secondary' " (click)="changeMode('day')">Día</ion-button>
+
+        </ion-col>
+
+
+      </ion-row>
+
+
+
+
+      <calendar
+        [locale]="calendar.locale" 
+        [eventSource]="eventSource"
+        [calendarMode]="calendar.mode"
+        [currentDate]="calendar.currentDate"
+        (onEventSelected)="onEventSelected($event)"
+        (onTitleChanged)="onViewTitleChanged($event)"
+        (onTimeSelected)="onTimeSelected($event)"
+
+        startHour="6"
+        endHour="20"
+        step="30"
+        startingDayWeek="1">
+      
+      </calendar>
+<div class="ion-text-center">
+  <h4>
+Calendarios del dispositivo
+  </h4>
+  <br>
+<ion-text>
+ Añade un evento al calendario de tu dispositivo
+</ion-text>
+
+</div>
+<br>
+<ion-list>
+        <ion-item *ngFor="let cal of calendars" tappable>
+          <ion-button (click)="addEvent2(cal)">
+      <ion-icon slot="start" name="add"></ion-icon>
+          </ion-button>
+          {{cal.name}}
+          <p>
+              {{cal.type}}
+          </p>
+        </ion-item>
+      </ion-list>
+
+    </ion-content>
+
+    <app-footer>
+
+    </app-footer>

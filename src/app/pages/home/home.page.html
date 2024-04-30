@@ -1,0 +1,51 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="primary"
+                        menu="first">
+
+      </ion-menu-button>
+      
+    </ion-buttons>
+
+  <ion-img class="centro" src="/assets/images/unico2.png"></ion-img> 
+
+     <ion-buttons slot="end">
+      <ion-button  color="danger" (click)="Onlogout()">Salir</ion-button>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides pager="true" >
+    <ion-slide>
+      
+        <ion-img routerLink="/information"  src="/assets/images/PortadasinicioApp4.svg"></ion-img>
+
+      </ion-slide>
+      <ion-slide>
+            <ion-img routerLink="/habitos"  src="/assets/images/PortadasinicioApp2.svg"></ion-img>
+      
+    </ion-slide>
+
+    <ion-slide>
+      <ion-img  routerLink="/prevencioncuello" src="/assets/images/PortadasinicioApp1.svg"></ion-img>    </ion-slide>
+
+    <ion-slide>
+      <ion-img  routerLink="/deteccionmama" src="/assets/images/PortadasinicioApp3.svg"></ion-img> </ion-slide>
+
+  </ion-slides>
+
+<ion-button routerLink="/hometrivia" expand="block" fill="outline" >
+Reta tus conocimientos</ion-button>
+<ion-button routerLink="/chat" expand="block" fill="outline" >
+  ingresar al chat</ion-button>
+
+</ion-content>
+<app-footer>
+
+</app-footer>

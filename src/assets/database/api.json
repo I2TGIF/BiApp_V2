@@ -1,0 +1,349 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "En aquel entonces, la condición era tan común entre las mujeres religiosas, la mayoría de las cuales no tenían hijos, que se conoció como la enfermedad de las monjas. Las mujeres que tienen muchos hijos y quedan embarazadas a una edad más temprana tienen un riesgo menor. Esto puede deberse a que el embarazo reduce el número total de períodos de una mujer. Los científicos piensan que tener más hormonas relacionadas con el período puede aumentar las posibilidades de contraer cáncer de seno.",
+            "question": "En el siglo XIV, el cáncer de mama se conocía como la enfermedad de:",
+            "correct_answer": "Monjas",
+            "incorrect_answers": [
+                "Madres",
+                "Tias",
+                "Reinas"
+            ],
+            "url_image": "../../../assets/images/triviaImages/monja.svg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "Es posible que haya escuchado que los químicos en estos productos pueden ingresar a su cuerpo a través de rasguños y causar la enfermedad. Aquí hay un poco de tranquilidad: los expertos dicen que no hay evidencia de que esto sea cierto.",
+            "question": "¿Los antitranspirantes pueden causar cáncer de seno?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "Verdadero"
+            ],
+            "url_image": "../../../assets/images/triviaImages/desodorante.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "Cualquier persona con tejido mamario puede contraer la enfermedad, incluso los hombres. Pero algunas cosas lo hacen más probable. El cáncer de mama en su familia, por parte de su madre o de su padre, aumenta sus posibilidades de contraerlo. También es más probable que lo obtenga si lo ha tenido antes. La mayoría de las mujeres tienen algunos factores de riesgo, pero la mayoría no contrae la enfermedad.",
+            "question": "¿Debe preocuparse por el cáncer de seno solo si se presenta en su familia?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "True"
+            ],
+            "url_image": "../../../assets/images/triviaImages/familia.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "Muchas mujeres no se realizan el autoexamen por miedo a encontrar algo, por esto es importante informarse y saber cual es la diferencia entre un tumor benigno y uno maligno. Los benignos son blandos se mueven y pueden ser dolorosos, por el contrario los malignos son fijos, estan duros y no generan dolor.",
+            "question": "¿Son todos los tumores malignos?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "Verdadero"
+            ],
+            "url_image": "../../../assets/images/triviaImages/tumor.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "No es necesario que entre en pánico si encuentra uno en su pecho. Muchas mujeres tienen bultos causados por sacos llenos de líquido llamados quistes o por una acumulación de tejido cicatricial. Una nueva masa o masa que es dura, indolora y tiene bordes ásperos es más probable que sea cáncer.Esté atento a dolor en los senos, hinchazón, hoyuelos, pezones que duelen o goteen líquido, o cualquier enrojecimiento o engrosamiento de la piel. Siempre consulte a su médico si nota algo diferente.",
+            "question": "¿La mayoría de los bultos de seno no son cancerosos?",
+            "correct_answer": "Verdadero",
+            "incorrect_answers": [
+                "Falso"
+            ],
+            "url_image": "../../../assets/images/triviaImages/tumor.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Segun un estudio las mujeres hispanas tienen un 20% más posibilidades de morir de cáncer de mama, debido a las diferencias biologicas de los tumores, que son mas resistentes a ciertos tratamientos",
+            "question": "¿Que poblacion tiene mas riesgo a morir de cáncer de mama?",
+            "correct_answer": "Latinas",
+            "incorrect_answers": [
+                "Europeas",
+                "Asiaticas",
+                "Africanas"
+            ],
+            "url_image": "../../../assets/images/triviaImages/tiposMujeres.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Según el Ministerio de Salud y el instituto nacional de Cancerología la mayoria de la infecciones VPH son transitorias pero el virus es una causa necesaria para desarrollar el cáncer de cuello uterino.",
+            "question": "¿Afecta el virus del papiloma humano al desarrollo de cancer de cuello uterino ?",
+            "correct_answer": "Latinas",
+            "incorrect_answers": [
+                "Europeas",
+                "Asiaticas",
+                "Africanas"
+            ],
+            "url_image": "../../../assets/images/triviaImages/tiposMujeres.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "El cáncer de cuello uterino es la primera causa de muerte por cáncer entre mujeres de 30 a 59 en Colombia segun el Ministerio de salud",
+            "question": "¿Que tipo de cáncer es mas mortal en las Colombianas?",
+            "correct_answer": "Cuello uterino",
+            "incorrect_answers": [
+                "Mama",
+                "Pulmon",
+                "Colon"
+            ],
+            "url_image": "../../../assets/images/triviaImages/cervix.svg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "El cáncer de mama es el principal cáncer del país, con 13.376 casos nuevos en 2018 con una tasa de incidencia de 63,9 casos por cada 100.000 mujeres mayores de 15 años, según INS",
+            "question": "¿Cual es el cáncer de mayor incidencia en las mujeres en Colombia?",
+            "correct_answer": "Cáncer de Mama",
+            "incorrect_answers": [
+                "Cáncer de Pulmón",
+                "Cáncer de Cuello Uterino",
+                "Cáncer de Estómago"
+            ],
+            "url_image": "../../../assets/images/triviaImages/lactancia.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "El cáncer de cérvix representa la quinta causa de muerte por cáncer en el país y una incidencia de 18,4 casos nuevos por cada 100.000 mujeres. Sin embargo, el cáncer de cérvix es más mortal que el cáncer de mama pues de las mujeres que lo padecen el 16,8 % mueren mientras que el 9,41 % de las mujeres con cáncer de mama mueren, según INS",
+            "question": "¿Cual es el cáncer de mayor tasa de mortalidad en las mujeres colombianas?",
+            "correct_answer": "Cáncer de Cuello Uterino",
+            "incorrect_answers": [
+                "Cáncer de Garganta",
+                "Cáncer de Pulmón",
+                "Cáncer de Colón"
+            ],
+            "url_image": "../../../assets/images/triviaImages/cervix.svg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "El VPH puede transmitirse de una persona a otra por el contacto piel a piel, como el que ocurre con las relaciones sexuales.",
+            "question": "¿Cual de los siguientes cánceres puede es provocado por el Virus del Papiloma Humano (VPH)?",
+            "correct_answer": "Cáncer de Cuello Uterino",
+            "incorrect_answers": [
+                "Cáncer de Mama",
+                "Cáncer de Lengua",
+                "Cáncer de Pulmón"
+            ],
+            "url_image": "/assets/images/triviaImages/VPH.svg"
+            
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "No es muy común, pero debido a que los hombres nacen con una pequeña cantidad de tejido mamario, pueden tener cáncer mamario.",
+            "question": "¿El cáncer de mama se puede producir en hombres?",
+            "correct_answer": "Verdadero",
+            "incorrect_answers": [
+                "Falso"
+            ],
+            "url_image": "../../../assets/images/triviaImages/Men.svg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "En un estudio a gran escala, se descubrió que el tabaquismo aumenta el riesgo de desarrollar cáncer de mama en las mujeres, especialmente en las mujeres que comenzaron a fumar antes de tener su primer hijo, según Cancer.org",
+            "question": "Seleccione uno de los factores biológicos y conductivos, que se asocian al cáncer de mama y cuello uterino",
+            "correct_answer": "Consumo de tabaco",
+            "incorrect_answers": [
+                "Esfuerzo Físico",
+                "Consumo de Bebidas Calientes",
+                "Consumo de verduras"
+            ],
+            "url_image": "/assets/images/triviaImages/fumar.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "El tejido adiposo en mujeres con sobrepeso produce estrógeno adicional, una hormona sexual que puede aumentar el riesgo de cáncer de útero. Además que un aumento de tejido diposo representa un aumento del riesgo de padecer cáncer de mama",
+            "question": "Seleccione uno de los factores biológicos y conductivos, que se asocian al cáncer de mama y cuello uterino",
+            "correct_answer": "Obesidad",
+            "incorrect_answers": [
+                "Esfuerzo Físico",
+                "Consumir Agua",
+                "Exponerse mucho al sol"
+            ],
+            "url_image": "/assets/images/triviaImages/obesidad.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Las mujeres que no lactan son más propensas a desarrollar cáncer de mama",
+            "question": "Seleccione uno de los factores biológicos y conductivos, que se asocian al cáncer de mama y cuello uterino",
+            "correct_answer": "Mujeres que no lactan o lo hicieron tardíamente,",
+            "incorrect_answers": [
+                "Consumo de verduras",
+                "Consumir Agua",
+                "Consumo de Bebidas Calientes"
+            ],
+            "url_image": "/assets/images/triviaImages/lactancia.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "No existe evidencia que indique que el contacto cercano ni tener sexo, besar, tocar, compartir comidas o respirar el mismo aire pueda causar que el cáncer se propague de una persona a otra.Por lo general, las células cancerosas de una persona no pueden sobrevivir en el cuerpo de otra persona sana. El sistema inmunológico de la persona sana reconoce las células extrañas y las destruye, incluyendo las células cancerosas de otra persona. American Cancer Society,Inc©",
+            "question": "¿El Cáncer es contagioso?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "Verdadero"
+            ],
+            "url_image": "/assets/images/triviaImages/transmision.svg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "Fumar hace parte de los hábitos no saludables que están asociados al cáncer. Es cierto que fumar cigarrillo es la causa de casi nueve de cada diez casos de cáncer de pulmón, pero fumar puede causar cáncer en casi cualquier parte del cuerpo, esto debido a que contiene al menos 70 sustancia químicas que provocan cáncer, cada vez que se inhala el humo del cigarrillo estas sustancias ingresan al flujo sanguíneo y se transporta a todas las partes del cuerpo y puede producir una modificación en el ADN que provoque un crecimiento descontrolado de células atípicas que puede convertirse en cáncer. CDC ©",
+            "question": "¿Fumar cigarrillo es una forma saludable de lidiar con el estrés?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "Verdadero"
+            ],
+            "url_image": "/assets/images/triviaImages/fumar.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Cuando se bebe alcohol, el cuerpo lo convierte en una sustancia química llamada acetaldehído. El acetaldehído daña el ADN y no le permite al cuerpo reparar el daño. El ADN es el “manual de instrucciones” de las células que controla el crecimiento y funcionamiento normal de ellas. Cuando se daña el ADN, una célula puede comenzar a crecer sin control y formar un tumor canceroso. CDC©",
+            "question": "¿Si consume mucho licor tiene más riesgo de padecer cáncer?",
+            "correct_answer": "Verdadero",
+            "incorrect_answers": [
+                "Falso"
+            ],
+            "url_image": "/assets/images/triviaImages/beber.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Las enfermedades de transmisión sexual (ETS) son un grupo de enfermedades transmisibles como son la gonorrea, herpes genital, sífilis, virus de inmunodeficiencia adquirido (VIH), virus del papiloma humano (VPH), entre otras, que se dan en todos los grupos de edades, con mayor frecuencia en adultos jóvenes. La mejor forma de evitar contraer estas enfermedades es el uso de preservativo masculino o el femenino y se recomienda usar la doble protección.",
+            "question": "¿Mediante cuál procedimiento se puede prevenir la infección de VPH (Virus del Papiloma Humano) y por ende el cáncer de cuello uterino?",
+            "correct_answer": "Vacunación contra el VPH y uso de preservativo",
+            "incorrect_answers": [
+                "Citología",
+                "No se puede prevenir",
+                "Visita al ginecólogo"
+            ],
+            "url_image": "/assets/images/triviaImages/VHP.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "Muchos tipos de cáncer de seno son sensibles al estrógeno. Por lo tanto, ha habido una preocupación de que los niveles hormonales elevados que surgen como resultado del embarazo puedan aumentar la probabilidad de que el cáncer regrese (recurrencia) en una mujer que ha padecido cáncer de seno. Sin embargo, los estudios han indicado que el embarazo no aumenta el riesgo de que el cáncer regrese después de haber recibido tratamiento con buenos resultados. \nTampoco existe evidencia de que amamantar después del tratamiento del cáncer de seno aumenta el riesgo de recurrencia. De hecho, algunas investigaciones sugieren que tener antecedentes de lactancia materna podría reducir el riesgo de que el cáncer regrese. American Cancer Society,Inc©",
+            "question": "Si queda en embarazo, ¿ya no podría darle cáncer?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "Verdadero"
+            ],
+            "url_image": "/assets/images/triviaImages/lactancia.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Aparición de una masa o bulto en la mama o cerca de la axila, es un indicador que refleja directamente que existe una masa anormal en el cuerpo. Que, aunque puede no ser cancerígena puede alertar una pronta visita al médico.",
+            "question": "¿Cuál es el signo indicador más común de cáncer de mama?",
+            "correct_answer": "Aparición de una masa o bulto en la mama o cerca de la axila.",
+            "incorrect_answers": [
+                "Comezón en el pezón",
+                "Enrojecimiento en la zona del pezón",
+                "Dolor en el cuello"
+            ],
+            "url_image": "../../../assets/images/triviaImages/tumor.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "En su etapa inicial el cáncer de cuello uterino no presenta síntomas, es por eso que se debe realizar citología regularmente para poder detectar esta enfermedad en estados tempranos.\nEn etapas más avanzadas, podría presentar síntomas como:\n• Sangrado vaginal anormal, especialmente después de tener relaciones sexuales, por fuera del periodo menstrual o después de la menopausia.\n• Dolor durante las relaciones sexuales.\n• Dolor pélvico o parte baja del abdomen persistente y sin razón. ",
+            "question": "Cuando una persona tiene cáncer de cuello uterino, ¿presenta síntomas durante toda la enfermedad?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "Verdadero"
+            ],
+            "url_image": "../../../assets/images/triviaImages/cervix.svg"
+        },
+        {
+            "category": "Unica",
+            "type": "boolean",
+            "difficulty": "medium",
+            "explanation": "El riesgo de cáncer de mama aumenta con la edad, la mayoría de los cánceres de mama se diagnostica después de los 50 años de edad.",
+            "question": "A mayor edad, ¿el riesgo de padecer cáncer de mama es mayor?",
+            "correct_answer": "Verdadero",
+            "incorrect_answers": [
+                "Falso"
+            ],
+            "url_image": "../../../assets/images/triviaImages/riesgoMama.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Todas se deben realizar el autoexamen de las mamas a partir de los 20 años, cada 6 meses, 8 días después del ciclo menstrual, con el fin de reconocer e identificar anormalidades que se puedan presentar en sus mamas para consultar al médico. ",
+            "question": "¿A partir de qué edad se les recomienda a las mujeres hacerse el autoexamen de las mamas?",
+            "correct_answer": "20 años",
+            "incorrect_answers": [
+                "15 años.",
+                "18 años",
+                "35 años"
+            ],
+            "url_image": "../../../assets/images/triviaImages/tumor.jpg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Si usted presenta ciertos síntomas que podrían indicar cáncer de cuello uterino y si la prueba de Papanicolaou muestra células anormales o si el resultado de la prueba del VPH da positivo, lo más probable es que se requiera hacer un procedimiento llamado colposcopia. Usted se acuesta en una camilla como lo hace cuando se hace el examen pélvico. Se coloca un espéculo en la vagina para ayudar al médico a observar el cuello uterino con mayor facilidad mediante un colposcopio. Este instrumento permanece fuera del cuerpo y tiene lentes de aumento. El colposcopio permite que el doctor observe de cerca y claramente la superficie del cuello uterino. American Cancer Society,Inc©",
+            "question": "¿La colposcopia es un método para detectar el cáncer de mama?",
+            "correct_answer": "Falso",
+            "incorrect_answers": [
+                "Verdadero"
+            ],
+            "url_image": "../../../assets/images/triviaImages/cervix.svg"
+        },
+        {
+            "category": "Unica",
+            "type": "multiple",
+            "difficulty": "medium",
+            "explanation": "Los tejidos del cuerpo humano pueden presentar diferencias electrofisiológicas, lo que permite por medio de técnicas como la tomografía de impedancia eléctrica observar si hay cambios en la compocición y morfología de los tejidos medidos. ",
+            "question": "La tomografía de impedancia eléctrica es una técnica que:",
+            "correct_answer": "Mide el comportamiento eléctrico de un tejido sometido a estimulacion",
+            "incorrect_answers": [
+                "Ayuda a desaparecer el cáncer del cuerpo quemando con electricidad las células dañadas.",
+                "Emite señales eléctricas que afectan el ritmo cardiaco.",
+                "Se puede usar en mujeres de cualquier edad ya que es segura para el cuerpo"
+            ],
+            "url_image": "../../../assets/images/triviaImages/EIT.png"
+        }
+
+
+        
+    ]
+}

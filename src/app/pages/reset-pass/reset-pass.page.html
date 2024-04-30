@@ -1,0 +1,32 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+    <ion-img class="centro" src="/assets/images/unico1.png"></ion-img>  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+<form class="ion-padding-top" (submit)="sendLinkReset()">
+
+  <ion-text color="dark">
+  <h5>Se enviará tu información a tu correo para recuperar la contraseña </h5>
+</ion-text>
+
+
+<ion-item>
+    <ion-input type="text" [(ngModel)]="email" placeholder="Ingresa tu correo electrónico" name="email" required="true"></ion-input>
+</ion-item>
+
+<ion-button class="ion-margin-top" expand="block" shape="round" type="submit"
+    >Entrar</ion-button>
+
+</form>
+
+
+</ion-content>
+<app-footer>
+
+</app-footer>

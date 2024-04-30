@@ -1,0 +1,45 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="secondary">Mi día</ion-title>
+
+    <ion-buttons slot="end">
+      
+        <ion-button color="danger" [routerLink]="['/diario']"><ion-icon slot="icon-only" name="close"></ion-icon></ion-button>
+        <ion-button color="primary" (click)="save()"><ion-icon slot="icon-only" name="checkmark"></ion-icon></ion-button>
+    </ion-buttons>       
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item-divider>
+    <ion-label >
+      Escoje un ícono
+    </ion-label>
+  </ion-item-divider>
+  
+  <ion-segment mode="ios" [(ngModel)]="item.icon">
+    <ion-segment-button *ngFor="let button of buttons" [value]="button">
+      <ion-icon color="secondary" [name]="button"></ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Selecciona fecha</ion-label>
+      <ion-datetime display-format="D MMM YYYY" max="2050-12-31" [(ngModel)]="item.date"></ion-datetime>      
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Ingresa el texto</ion-label>
+      <ion-input [(ngModel)]="item.task"></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<app-footer>
+  
+</app-footer>
